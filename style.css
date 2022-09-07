@@ -1,0 +1,129 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   outline: none; 
+   cursor: text  ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+
+   background-color: #6e531f  ;
+
+   
+}
+header{
+   background-color: #ffffff;
+   width: 100%;
+   height: 100%;
+}
+#logo{
+   float: left;
+   padding: 20px;
+}
+
+h1 {
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+
+nav  ul{
+   list-style: none;
+   float: right;
+   justify-content: center;
+  
+   
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   transition: .4s ease-in-out;
+   border-radius: 2px;
+    border: none;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 10px;
+ }
+
+ nav :hover{
+   color: #fffdfa ;
+}
+
+
+
+   .CTA{
+      float: center;
+  }
+
+  .CTA :hover{
+    background-color: #f4f5ea;
+  }
+  
+  footer{
+   width: 100%;
+   height: 50px;
+   background-color:#ffffff ;
+   color: #f1f2f5; 
+   padding: 0.7rem;
+   margin: 0%;
+   text-align: center;
+   
+   }
+   
+
+   .box{
+      background-color:  #ffffff;
+      top: 0;
+      width: 220px;
+      height: 300px;
+      margin: 5px;
+      color: #6e531f;
+      font-size: 17px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: #000000 0px 5px 15px ;
+      border: #f1f2f5;
+      opacity: 1;
+      border-radius: 10px;
+      transition: transform 1.5s ease-in-out;
+      position: relative;
+      transform: translateY(-20px);
+   }
+   
+   .box:hover{
+      box-shadow: #c2ba78 0PX 5PX 15PX ;
+      border: #f1f2f5;
+      opacity: 1;
+      transform: rotateY(-17deg);
+      transform: perspective(-170deg);
+
+  }
+  .container{
+  display:flex;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  perspective: 30rem;
+  position: relative;
+  transform: translateY(-15px);
+
+  
+  }
+
+ i{
+   font-size: xx-large;
+   transform: translate(-60%, -60%);
+   color: #ffffff;
+ }
+
+ .mm{
+   background-color: #6e531f ;
+   transition: 0.3s ease-in-out;
+  }
+  
